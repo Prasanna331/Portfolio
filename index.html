@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prasanna Patyam — Senior Software Developer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAV ===== -->
+  <header class="nav-header">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">PP</a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#awards">Awards</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <p class="hero-greeting">Hi, I'm</p>
+      <h1 class="hero-name">Prasanna Patyam</h1>
+      <p class="hero-role">Senior Software Developer</p>
+      <p class="hero-tagline">8+ years building enterprise-grade Java &amp; Spring Boot systems across banking, insurance, healthcare, and manufacturing — from microservices to production-ready APIs.</p>
+      <div class="hero-actions">
+        <a href="#experience" class="btn btn-primary">View Experience</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero-graphic">
+      <div class="avatar-photo">
+        <img src="profile.png" alt="Prasanna Patyam" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm a <strong>Senior Software Developer</strong> based in North Vancouver, BC, with
+            <strong>8+ years of experience</strong> designing and delivering enterprise-grade solutions
+            across banking, insurance, healthcare, and manufacturing sectors.
+          </p>
+          <p>
+            I specialize in <strong>Java, Spring Boot, and microservices architecture</strong>, with
+            hands-on expertise in REST API development, AWS, Docker, and CI/CD pipelines. I'm known for
+            delivering secure, compliant, and scalable backend solutions in regulated environments —
+            consistently translating complex business and regulatory requirements into high-performance,
+            production-ready systems.
+          </p>
+          <p>
+            I've worked at global firms like <strong>TCS</strong> and <strong>Wipro</strong>, delivering
+            solutions for clients such as Stellantis, Suncorp, Oracle Cerner, and CUA Credit Union Australia.
+          </p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <span class="stat-number">8+</span>
+            <span class="stat-label">Years of Experience</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">4</span>
+            <span class="stat-label">Industry Sectors</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">90%+</span>
+            <span class="stat-label">Code Coverage Achieved</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">30%</span>
+            <span class="stat-label">DB Query Improvement</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Experience</h2>
+      <div class="timeline">
+
+        <!-- Wipro -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-body">
+            <div class="timeline-header">
+              <div>
+                <h3>Senior Software Engineer</h3>
+                <p class="timeline-company">Wipro Limited — Bangalore, India</p>
+              </div>
+              <span class="timeline-date">Jan 2023 – Jan 2024</span>
+            </div>
+            <p class="timeline-context">A global IT services and consulting company delivering technology solutions across 65 countries.</p>
+
+            <div class="exp-project">
+              <h4>Healthcare Revenue Cycle Platform — Oracle Cerner</h4>
+              <ul>
+                <li>Designed and developed a reusable Spring Boot microservice mock simulating EDIFECS commercial claims scrubbing — evaluated EDI X12 partner request data via REST API and retrieved matching responses from MySQL.</li>
+                <li>Containerized the service using Docker with environment-specific Spring profiles for dev, staging, and production.</li>
+                <li>Implemented health check monitoring via Spring Boot Actuator endpoints.</li>
+                <li>Achieved <strong>90%+ code coverage</strong> with JUnit and Mockito across full API flow, DB interactions, and EDI X12 claims processing.</li>
+              </ul>
+            </div>
+
+            <div class="exp-project">
+              <h4>Job Status Monitoring Dashboard</h4>
+              <ul>
+                <li>Built a full-stack monitoring dashboard (Spring Boot REST API + HTML/JS/Bootstrap) providing real-time visibility into 10–50 scheduled jobs on Linux/Unix servers.</li>
+                <li>Implemented log file parsing with dynamic status evaluation ("Successful", "Error", "Not Scheduled") per job per day.</li>
+                <li><strong>Eliminated 30–60 minutes of daily manual effort</strong> for the operations team through automated log monitoring.</li>
+              </ul>
+            </div>
+
+            <div class="exp-project">
+              <h4>General Contributions</h4>
+              <ul>
+                <li>Resolved production Oracle DB issues — root-cause analysis, targeted fixes, and data integrity validation for uninterrupted revenue cycle operations.</li>
+                <li>Optimized Redis cache TTL settings to improve cache efficiency and reduce unnecessary DB load.</li>
+                <li>Developed an internal Spring Boot REST API utility using JSch SSH to automate aged log file deletion on Linux servers — adopted by the team for disk space recovery during incidents.</li>
+                <li>Executed end-to-end testing across Dev, QA, UAT, and Production environments.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- TCS -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-body">
+            <div class="timeline-header">
+              <div>
+                <h3>Software Engineer</h3>
+                <p class="timeline-company">Tata Consultancy Services — Bangalore, India</p>
+              </div>
+              <span class="timeline-date">Feb 2016 – Jan 2023</span>
+            </div>
+            <p class="timeline-context">A global IT consulting and business solutions firm serving clients in 50+ countries.</p>
+
+            <div class="exp-project">
+              <h4>Open Banking Platform — CUA Credit Union Australia</h4>
+              <ul>
+                <li>Designed and developed an Open Banking eligibility microservice from scratch as part of a CDR (Consumer Data Right) compliant platform.</li>
+                <li>Built RESTful APIs integrated with <strong>Ping Identity</strong> for IAM and OAuth 2.0 authentication.</li>
+                <li>Integrated <strong>AWS API Gateway</strong>, deployed on AWS EC2 via AWS CodePipeline CI/CD; leveraged AWS Lambda and S3.</li>
+                <li>Implemented GDPR-compliant audit logging using SLF4J/Log4j for full regulatory traceability.</li>
+                <li>Monitored API performance using <strong>AWS CloudWatch</strong>; ensured 90%+ code quality via JUnit and Mockito.</li>
+              </ul>
+            </div>
+
+            <div class="exp-project">
+              <h4>Guidewire ClaimCenter — Suncorp (Insurance)</h4>
+              <ul>
+                <li>Enhanced and debugged backend Guidewire ClaimCenter services for complex motor, home, and commercial insurance claims workflows.</li>
+                <li>Optimized Oracle DB SQL queries with targeted indexes — <strong>improved query execution time by 30%</strong> under high load.</li>
+                <li>Identified and resolved a critical batch job issue causing redundant email notifications and unnecessary Oracle DB hits <strong>24× daily</strong>.</li>
+                <li>Led <strong>CC7 to CC10 migration</strong> — resolved GUnit test failures and ensured zero-downtime upgrade.</li>
+                <li>Customized business rules and SOAP/Web Services integration layers using Java and Gosu for Australian insurance regulatory requirements.</li>
+              </ul>
+            </div>
+
+            <div class="exp-project">
+              <h4>Vehicle Ordering &amp; Inventory Management — FCA Stellantis</h4>
+              <ul>
+                <li>Provided production support for the vehicle ordering platform used by international dealers — verified releases, coordinated downstream teams, and conducted load testing with LoadRunner.</li>
+                <li>Implemented RFID tag reading and batch processing within the Uniform Production System (UPS) to track engines on production line skids, integrating with IBM MQ for downstream alerts.</li>
+                <li>Migrated a legacy C++ application to Java (Struts), implementing full-stack UI from UX designs with HTML5, JavaScript, and CSS.</li>
+                <li>Contributed to a proof-of-concept portfolio-level dashboard using Spring backend with pie chart job visualizations.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">Personal Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-tag">Java · Spring Boot</div>
+          <h3>Parking Management System</h3>
+          <p>Production-grade parking backend with JWT authentication, role-based authorization, parking lot and spot management, availability tracking, and Redis caching for frequently accessed data.</p>
+          <div class="project-tech">
+            <span>Java</span><span>Spring Boot</span><span>PostgreSQL</span><span>Redis</span><span>Docker</span><span>JWT</span>
+          </div>
+          <a href="https://github.com/Prasanna331" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-tag">Node.js · Express</div>
+          <h3>Parking API — Node.js</h3>
+          <p>The same Parking Management API rebuilt in Node.js + Express with Socket.IO for real-time spot status updates, PostgreSQL, and JWT-based auth with role-based access control.</p>
+          <div class="project-tech">
+            <span>Node.js</span><span>Express</span><span>Socket.IO</span><span>PostgreSQL</span><span>JWT</span>
+          </div>
+          <a href="https://github.com/Prasanna331" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-tag">React · TypeScript</div>
+          <h3>Parking UI — React</h3>
+          <p>Shared React 18 + TypeScript frontend for both backends. Built with Vite, Tailwind CSS, and Axios interceptors for auth token handling and real-time parking spot updates.</p>
+          <div class="project-tech">
+            <span>React 18</span><span>TypeScript</span><span>Vite</span><span>Tailwind CSS</span>
+          </div>
+          <a href="https://github.com/Prasanna331" class="project-link" target="_blank" rel="noopener">View on GitHub →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h4>Languages &amp; Frameworks</h4>
+          <ul>
+            <li>Java, Java EE</li>
+            <li>Spring Boot, Spring Framework</li>
+            <li>Hibernate / JPA</li>
+            <li>JavaScript, Python</li>
+            <li>REST APIs, Microservices</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>Cloud &amp; DevOps</h4>
+          <ul>
+            <li>AWS (EC2, Lambda, S3, API Gateway, CloudWatch, CodePipeline)</li>
+            <li>Docker, Kubernetes</li>
+            <li>CI/CD, Jenkins</li>
+            <li>Maven, Gradle, Git</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>Databases &amp; Messaging</h4>
+          <ul>
+            <li>Oracle, MySQL, DB2</li>
+            <li>PostgreSQL, Redis</li>
+            <li>IBM MQ</li>
+            <li>SQL query tuning</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>Testing &amp; Quality</h4>
+          <ul>
+            <li>JUnit, Mockito</li>
+            <li>Integration &amp; unit testing</li>
+            <li>90%+ code coverage</li>
+            <li>LoadRunner (performance)</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>Observability &amp; Security</h4>
+          <ul>
+            <li>Splunk, Dynatrace</li>
+            <li>AWS CloudWatch</li>
+            <li>JWT, OAuth 2.0</li>
+            <li>Ping Identity, GDPR compliance</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h4>Frontend &amp; Docs</h4>
+          <ul>
+            <li>HTML5, CSS3, Bootstrap</li>
+            <li>JavaScript, React</li>
+            <li>Swagger / OpenAPI</li>
+            <li>Spring Boot Actuator</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== AWARDS ===== -->
+  <section id="awards" class="section">
+    <div class="container">
+      <h2 class="section-title">Awards &amp; Recognition</h2>
+      <p class="awards-org">Tata Consultancy Services (TCS)</p>
+      <div class="awards-grid">
+        <div class="award-card">
+          <div class="award-icon">🏆</div>
+          <h4>Best Employee of the Month</h4>
+          <p>Recognized for outstanding performance and contributions to project delivery.</p>
+        </div>
+        <div class="award-card">
+          <div class="award-icon">🎖️</div>
+          <h4>Service Commitment Award</h4>
+          <p>Recognized for dedication and long-term contribution to the organization.</p>
+        </div>
+        <div class="award-card">
+          <div class="award-icon">🤝</div>
+          <h4>Best Team Award</h4>
+          <p>Recognized as part of a high-performing team for collaboration and project success.</p>
+        </div>
+        <div class="award-card">
+          <div class="award-icon">⚡</div>
+          <h4>On-the-Spot Award</h4>
+          <p>Recognized for valuable contributions and timely delivery of assigned responsibilities.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section id="education" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="edu-grid">
+        <div class="edu-card">
+          <div class="edu-year">2024 – Present</div>
+          <h3>Software Development &amp; Problem Solving</h3>
+          <p class="edu-school">Scaler — India</p>
+          <p>Specialized coursework in data structures, algorithms, system design, and advanced problem solving.</p>
+        </div>
+        <div class="edu-card">
+          <div class="edu-year">2015</div>
+          <h3>Bachelor of Technology — Computer Science</h3>
+          <p class="edu-school">JNTUH College of Engineering — India</p>
+          <p>Foundational degree in computer science covering software engineering, databases, networking, and algorithms.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section">
+    <div class="container contact-container">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="contact-sub">Open to new opportunities, collaborations, or just a conversation about tech. Feel free to reach out.</p>
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+        </div>
+        <input type="text" name="subject" placeholder="Subject" required />
+        <textarea name="message" rows="5" placeholder="Your message..." required></textarea>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+        <p class="form-status" id="formStatus"></p>
+      </form>
+      <div class="contact-links">
+        <a href="mailto:Patyam.prasanna21@gmail.com">Patyam.prasanna21@gmail.com</a>
+        <a href="https://github.com/Prasanna331" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/in/prasanna-patyam" target="_blank" rel="noopener">LinkedIn</a>
+        <span class="contact-phone">236-777-2652</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p>&copy; 2026 Prasanna Patyam · North Vancouver, BC · Built with HTML, CSS &amp; JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
